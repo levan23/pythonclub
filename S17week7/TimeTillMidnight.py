@@ -3,7 +3,11 @@ from pytz import timezone
 import pytz
 
 def ttm(naive_datetime,timezone):
-    return 0
+    b=pytz.
+    s=naive_datetime.strftime('%H:%M:%S')
+    print()
+    return timezone in pytz.all_timezones
 
-for i in pytz.all_timezones:
-    print(i)
+naive=datetime.now(timezone("Europe/Paris"))
+zone="Europe/Paris"
+print(ttm(naive,zone))

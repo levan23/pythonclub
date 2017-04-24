@@ -7,7 +7,6 @@ symbols = {
     "D":500,
     "M": 1000
 }
-
 def roman_to_int(string):
     sum=0;
     previous=0;
@@ -18,7 +17,5 @@ def roman_to_int(string):
         else:
             sum-=symbols[i]
             previous=0
-
-
     return sum
 
